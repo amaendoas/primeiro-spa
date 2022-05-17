@@ -25,6 +25,5 @@ export default class Router {
     .then(html => {
       document.querySelector('#page').innerHTML = html
     }) //retorna o html e coloca dentro da página
-    console.log(route)
   }
 }
