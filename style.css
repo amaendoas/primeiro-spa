@@ -42,6 +42,18 @@ nav a:hover {
   font-weight: bold;
 }
 
+main.home, main.universe, main.explorer {
+  animation: topdown 1s;
+}
+
+.space {
+  animation: space 1s;
+}
+
+.not-found {
+  animation: space 30s;
+}
+
 main.home {
   height: 65vh;
   display: flex;
@@ -77,12 +89,12 @@ main button {
   border-radius: 5px;
   background: transparent;
   cursor: pointer;
+  transition: 600ms;
 }
 
 main button:hover {
   background-color: white;
   color: rgb(2, 120, 156);
-  transition: 600ms;
 }
 
 body img:nth-child(1) {
@@ -113,3 +125,24 @@ footer {
   bottom: 5rem;
 }
 
+@keyframes topdown {
+  0% {
+    opacity: 0;
+    transform: translateY(-15px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes space {
+  0% {
+    transform: scale(1.5);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
