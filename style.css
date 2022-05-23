@@ -12,7 +12,7 @@ body {
   background: #000;
 }
 
-body, button {
+body, button, a {
   color: white;
   font-family: 'Roboto', sans-serif;
 }
@@ -32,10 +32,6 @@ nav {
   align-items: center;
   justify-content: start;
   gap: 3.2rem;
-}
-
-nav a {
-  color: white;
 }
 
 nav a:hover {
@@ -115,14 +111,26 @@ footer svg path {
 }
 
 footer {
+  font-size: 1.1rem;
+  text-transform: uppercase;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 5px;
-  font-size: 1.3rem;
   position: fixed;
   bottom: 5rem;
+  opacity: 70%;
+}
+
+footer a {
+  color: hsl(265, 45%, 58%);
+  font-weight: bold;
+  transition: 400ms;
+}
+
+footer a:hover {
+  color: rgb(2, 120, 156);
 }
 
 @keyframes topdown {
