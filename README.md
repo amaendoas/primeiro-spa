@@ -5,7 +5,8 @@ Desafio do Stage 06 da Rocketseat no qual utilizei - Conceitos de SPA; - Mapeame
 ## Como usar
 - Instalar o Node.js no computador;
 - Abrir o VSCode no diretório do seu projeto;
-- Abrir o Terminal (Ctrl+J) e digitar "npm start"
+- Abrir o Terminal (Ctrl+J) e digitar npm install
+- Depois "npm start"
 
 
 ## Layout
