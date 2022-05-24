@@ -6,13 +6,17 @@ Desafio do Stage 06 da Rocketseat no qual utilizei - Conceitos de SPA; - Mapeame
 - Instalar o Node.js no computador;
 - Abrir o VSCode no diretório do seu projeto;
 - Abrir o Terminal (Ctrl+J) e digitar npm install
-- Depois "npm start"
+- Depois digitar "npm start"
 
 
 ## Layout
-![image](https://user-images.githubusercontent.com/94807208/168671996-8f9dfd43-c222-4feb-aa1a-3ee283af1393.png)
-![image](https://user-images.githubusercontent.com/94807208/168672050-0a305471-27c8-4051-a17c-b05ee5204c36.png)
-![image](https://user-images.githubusercontent.com/94807208/168672093-ca2e386d-a7f5-4eba-b3da-6e0497fae25a.png)
-![image](https://user-images.githubusercontent.com/94807208/169840267-5f778e25-1440-4836-a435-3e6d52f2c930.png)
+Home
+![image](https://user-images.githubusercontent.com/94807208/170043407-aa537dd9-0ee3-42bd-947d-4c5f805d2a6c.png)
+Universe
+![image](https://user-images.githubusercontent.com/94807208/170043514-20bdbc96-ccca-4246-bb49-2c617ea50c17.png)
+Explorer
+![image](https://user-images.githubusercontent.com/94807208/170043619-f6983b53-258e-4716-af62-81bc9b61a898.png)
+Página 404
+![image](https://user-images.githubusercontent.com/94807208/170043797-c56e5c67-4f9a-4835-8b14-fb282835daa7.png)
 
 
